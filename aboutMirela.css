@@ -1,0 +1,206 @@
+.header{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  padding-top: 5px;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+.rows{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.imgDescr {
+    position: absolute;
+    top: 40%;
+    cursor: default;
+    text-align: center;
+    font-size: 30pt;
+    display: none;
+    width: 100%;
+    font-family: 'Amatica SC', cursive;
+}
+
+
+#beachImg {
+  height:300px;
+  width: 310px;
+  padding-top: 20px;
+}
+
+.beachContainer {
+  position: relative;
+  height: 320px;
+  width: 310px;
+}
+
+.beachContainer:hover .imgDescr{
+  display: block;
+}
+
+.beachContainer:hover .about_image{
+  opacity:0.4;
+}
+
+#tiramisuImg {
+  height: 300px;
+  width: 500px;
+  padding-top: 20px;
+}
+.tiramisuContainer {
+  position: relative;
+  height: 320px;
+  width: 500px;
+}
+
+.tiramisuContainer:hover .imgDescr{
+  display: block;
+}
+
+.tiramisuContainer:hover .about_image{
+  opacity: 0.4;
+}
+
+#peonyImg {
+  height: 300px;
+  width: 480px;
+  padding-top: 20px;
+}
+
+.peonyContainer {
+  position: relative;
+  height: 320px;
+  width: 480px;
+}
+
+.peonyContainer:hover .imgDescr{
+  display: block;
+}
+
+.peonyContainer:hover .about_image{
+  opacity: 0.4;
+}
+
+#kittenImg {
+  height: 270px;
+  width: 380px;
+  padding-top: 20px;
+}
+
+.kittenContainer {
+  position: relative;
+  height: 290px;
+  width: 380px;
+}
+
+.kittenContainer:hover .imgDescr{
+  display: block;
+}
+
+.kittenContainer:hover .about_image{
+  opacity:0.4;
+}
+
+#runImg {
+  height:290px;
+  width: 450px;
+  padding-top: 20px;
+}
+
+.runContainer {
+  position: relative;
+  height: 310;
+  width: 450;
+}
+
+.runContainer:hover .imgDescr{
+  display: block;
+}
+
+.runContainer:hover .about_image{
+  opacity:0.4;
+}
+
+#uniImg {
+  height:300px;
+  width: 480px;
+  padding-top: 20px;
+}
+
+.uniContainer {
+  position: relative;
+  height: 320;
+  width: 480;
+}
+
+.uniContainer:hover .imgDescr{
+  display: block;
+}
+
+.uniContainer:hover .about_image{
+  opacity:0.4;
+}
+
+#moldovaImg {
+  height:320px;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.moldovaContainer {
+  position: relative;
+  height: 320;
+  width: 480;
+}
+
+.moldovaContainer:hover .imgDescr{
+  display: block;
+}
+
+.moldovaContainer:hover .about_image{
+  opacity:0.4;
+}
+
+#planeImg {
+  height:320px;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.planeContainer {
+  position: relative;
+  height: 320;
+  width: 480;
+}
+
+.planeContainer:hover .imgDescr{
+  display: block;
+}
+
+.planeContainer:hover .about_image{
+  opacity:0.4;
+}
+
+#steakImg {
+  height: 320px;
+  width: 340px;
+  padding-top: 20px;
+}
+
+.steakContainer {
+  position: relative;
+  height: 340;
+  width: 340;
+}
+
+.steakContainer:hover .imgDescr{
+  display: block;
+}
+
+.steakContainer:hover .about_image{
+  opacity:0.4;
+}
